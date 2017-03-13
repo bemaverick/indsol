@@ -19,7 +19,7 @@ body {
 }
 .main-header {
 	background:rgb(255, 255 ,255) url(../img/flexo_tape_4.jpg) 50%  no-repeat;
-	background-size: auto 145%;
+	background-size: auto 130%;
 /* 	height: 100vh; */
 }
 
@@ -190,8 +190,11 @@ a.btn {
 	border: 4px solid white;
 }
 .header-advert-btn:hover {
-	border: 4px solid #016f3e;
-	transition: border .4s;
+	border-color: #016f3e;
+	background-color: #ec1a22;
+	transition: border-color .6s;
+	transition: background-color .6s;
+
 }
 .header-contact a {
 	text-decoration: none;
@@ -209,8 +212,95 @@ a.btn {
 	top: 70px;
 }
 
+/* адапт шапка */
+@media (max-width: 600px) {
+
+.container {
+	widows: 560px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.main-header {
+	background-color: #eee;
+	background-image: none;
+}
+
+.main-logo-block,
+.main-navigation-block,
+.user-bucket-block {
+	display: block;
+	float: none;
+}
+
+.main-navigation-list li {
+	display: block;
+
+}
+
+.user-bucket-block {
+	margin: 0;
+}
 
 
 
+}
+/* Адапт не до конца */
+
+
+.main-footer {
+	background-color: #bc131a;
+}
+
+
+.footer-aboutus,
+.footer-contact,
+.footer-location {
+	float: left;
+	width: 300px;
+	height: 250px;
+	padding: 0 20px 20px 0;
+	margin-right: 70px;
+	margin-bottom: 40px;
+}
+.footer-aboutus {
+	padding-right: 0;
+	width: 320px;
+}
+.footer-aboutus .main-title {
+	color: #fff;
+	padding-bottom: 40px;
+}
+
+.footer-location {
+	margin-right: 0;
+}
+
+.footer-title {
+	font-family: 'Russo One', sans-serif; 
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+	color:#fff;
+	padding: 30px 0;
+}
+
+.about {
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.contact-title {
+	font-size: 22px;
+	line-height: 30px;
+	color: #fff;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.footer-map {
+	height: 400px;
+}
 
 
