@@ -11,16 +11,23 @@
 }
 
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	font-weight: 300;
 	color: black;
 
 }
+h1{
+    font-size: 28pt;
+}
+h3{
+    font-size: 18pt;
+}
 .main-header {
-	background:rgb(255, 255 ,255) url(../img/flexo_tape_4.jpg) 50%  no-repeat;
+	background:rgb(255, 255 ,255) url(../img/IMG_4682.jpg) 50%  no-repeat;
 	background-size: auto 130%;
-/* 	height: 100vh; */
+    
+ 	height: 100vh; 
 }
 
 /* Миксины */
@@ -34,7 +41,6 @@ body {
 	content: "";
 	clear: both;
 }
-
 .main-logo-block,
 .main-navigation-block,
 .user-bucket-block {
@@ -43,7 +49,6 @@ body {
 .user-bucket-block {
 	margin: 20px 0 20px 140px;
 }
-
 .main-logo-block {
 	margin-right: 70px;
 	margin-left: 5px;
@@ -52,6 +57,8 @@ body {
 
 .main-navigation-block {
 	margin: 20px 0;
+	background-color: rgba(251, 251, 251, 0.7);    
+	border-radius: 5px;
 }
 
 .main-navigation-list li {
@@ -93,7 +100,7 @@ body {
 	line-height: 20px;
 	font-size: 16px;
 	font-weight: 700;
-	color: #bc131a;            /*Бордовый*/
+	color: yellow;            /*Бордовый*/
 	padding: 10px 10px;
 	cursor: pointer;
 	position: relative;
@@ -109,7 +116,7 @@ body {
 	font-family: "symbols-nerds";
 	font-size: 16px;
 	line-height: 20px;
-	color: #bc131a;
+	color: yellow;
 	font-weight: normal;
 }
 .user-bucket-block a:hover::before {
@@ -304,3 +311,146 @@ a.btn {
 }
 
 
+
+
+
+
+
+
+/* вставка-каталог-начало */
+
+.catalog{
+    text-align: center;
+}
+
+.category{
+    margin-left: 10%;
+    font-style: italic;
+}
+.showcase {
+	margin:50px auto;
+	max-width: 1100px;
+    width: 100%;
+	list-style: none;
+	padding: 0 0 40px 40px;
+	height: 244px;
+}
+.showcase ul{
+    text-align: center;
+}
+.showcase li {
+	float: left;
+	width: 315px;
+	height: 244px;
+	overflow: hidden;
+	margin: 0 35px 0 0;
+}
+.showcase a {
+	display: block;
+	width: 315px;
+	height: 244px;
+	overflow: hidden;
+	position: relative;
+	text-decoration: none;
+}
+.showcase a img {
+	width: 315px;
+	height: 244px;
+	margin: 0 auto;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+.showcase a:hover img {
+	width: 315px;
+	height: 213px;
+	left: 0px;
+	top: -10px;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    filter: blur(5px);
+}
+.showcase a p {
+	background: #bc131a;
+	color: #fff;
+	font-size: 11px;
+	padding: 12px 20px;
+	position:absolute;
+	bottom:-100px;
+	line-height: 20px;
+	display: block;
+	width: 100%;
+	cursor: pointer;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+.showcase a:hover p {
+	bottom: 0;
+}
+.showcase a h3 {
+	font-size: 13px;
+    font-weight: 600;
+	text-transform: uppercase;
+	color: white;
+	background: #bc131a;
+	width: 100%;
+	padding: 8px 10px;
+	position: absolute;
+	bottom:0px;
+	cursor: pointer;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+.showcase a:hover h3 {
+	bottom:94px;
+    color: yellow;
+}
+.showcase a h3 i {
+	width: 33px;
+	height: 26px;
+	position: absolute;
+	right: -34px;
+	top: 0;
+	background: #59A214;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+	font-size:18px;
+	font-weight:normal;
+	text-align:center;
+	padding:6px 0 0 0;
+}
+.showcase .thumb2 a p, .showcase .thumb2 a h3 {
+	background: #F68B28;
+}
+.showcase .thumb2 a:hover p, .showcase .thumb2 a:hover h3 {
+	background: #F16B17;
+}
+.showcase .thumb2 a h3 i {
+	background: #F68B28;
+}
+.showcase .thumb2 a:hover h3 i {
+	background: #F16B17;
+}
+.showcase .thumb3 a p, .showcase .thumb3 a h3 {
+	background: #0065BB;
+}
+.showcase .thumb3 a:hover p, .showcase .thumb3 a:hover h3 {
+	background: #0046A2;
+}
+.showcase .thumb3 a h3 i {
+	background: #0065BB;
+}
+.showcase .thumb3 a:hover h3 i {
+	background: #0046A2;
+}
+/* вставка-каталог-конец */
