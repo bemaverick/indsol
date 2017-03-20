@@ -320,10 +320,12 @@ a.btn {
 
 /* вставка-каталог-начало */
 
-main.catalog {
+.main-catalog {
 	height: 100vh;
     min-height: 690px;
     max-height: 800px;
+    position: relative;
+    text-align: center;
 }
 .catalog{
     text-align: center;
@@ -460,3 +462,11 @@ main.catalog {
 	background: #0046A2;
 }
 /* вставка-каталог-конец */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  background-attachment: fixed;
+}
