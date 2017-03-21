@@ -255,9 +255,24 @@ a.btn {
 }
 /* Адапт не до конца */
 
+.main-content {
+	position:relative;
+    z-index:1;
+    background-color: #f8f8f8;
+
+}
 
 .main-footer {
 	background-color: #bc131a;
+	height: 400px;
+/*     height: 245px; */
+/*     color:#ccc; */
+/*     font-size:12px; */
+    position:relative;
+    z-index:-2;
+/*     background-color:#31353a; */
+    display: block;
+
 }
 
 
@@ -318,6 +333,15 @@ a.btn {
 .footer-map {
 	height: 300px;
 }
+.footer-fixed {
+	z-index: -1;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	margin-left: -550px;
+
+}
+
 
 
 
