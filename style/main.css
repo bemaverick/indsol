@@ -264,7 +264,10 @@ a.btn {
 
 .main-footer {
 	background-color: #bc131a;
-	height: 400px;
+	height: 600px;
+
+	min-height: 100vh;
+	max-height: 750px;
 /*     height: 245px; */
 /*     color:#ccc; */
 /*     font-size:12px; */
@@ -337,8 +340,9 @@ a.btn {
 	z-index: -1;
 	position: fixed;
 	bottom: 0;
-	left: 50%;
-	margin-left: -550px;
+/* 	left: 50%;
+ *//* 	margin-left: -550px; */
+	width: 100%;
 
 }
 

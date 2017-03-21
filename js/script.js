@@ -2,10 +2,10 @@
 	    var x = 50.449763;
 	    var y = 30.424601;
 	    var mapOptions = {
-	        zoom: 15,
+	        zoom: 14,
 	        center: new google.maps.LatLng(x, y),
-	        scrollwheel: true,
-	        disableDefaultUI: false
+	        scrollwheel: false,
+	        disableDefaultUI: true
 	    }
 	    var map = new  google.maps.Map(
 	        document.querySelector(".footer-map"),
