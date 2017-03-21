@@ -277,7 +277,7 @@ a.btn {
 }
 .footer-aboutus .main-title {
 	color: #fff;
-	padding-bottom: 40px;
+	padding-bottom: 25px;
 }
 
 .footer-location {
@@ -290,7 +290,7 @@ a.btn {
 	line-height: 40px;
 	text-align: center;
 	color:#fff;
-	padding: 30px 0;
+	padding: 20px 0;
 }
 
 .about {
@@ -305,6 +305,14 @@ a.btn {
 	color: #fff;
 	padding: 10px 0;
 	text-align: center;
+	margin-bottom: 45px;
+
+}
+.contact-list li {
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	padding: 0 0 11px 74px;
 }
 
 .footer-map {
