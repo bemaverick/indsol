@@ -22,3 +22,17 @@
 google.maps.event.addDomListener(window, "load", initialize);
 
 
+$(document).ready(function(){
+    $('.go-to').click( function(event){
+    	event.preventDefault();
+     // ловим клик по ссылке с классом go_to
+	    var scroll_el = $(".main-footer"); // возьмем содержимое атрибута href, должен быть селектором, т.е. например начинаться с # или .
+      /*  if ($(scroll_el).length != 0) {*/ // проверим существование элемента чтобы избежать ошибки
+	    $('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 1000); // анимируем скроолинг к элементу scroll_el
+      /*  }*/
+	    return false; // выключаем стандартное действие
+    });
+});
+
+
+

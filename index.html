@@ -8,6 +8,12 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+<!--     <script src="https://code.jquery.com/jquery-3.2.0.min.js"
+  integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I="
+  crossorigin="anonymous"></script> -->
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <link rel="stylesheet" href="js/vegas/vegas.min.css">
+
 
 </head>
 <body>
@@ -22,7 +28,7 @@
           <li><a href="#">Каталог</a></li>
           <li><a href="#">О компании</a></li>
           <li><a href="#">Партнерская программа</a></li>
-          <li><a href="#">Контакты</a></li>
+          <li><a class="go-to" href="#">Контакты</a></li>
         </ul>
       </nav>
       <div class="user-bucket-block">
@@ -133,7 +139,17 @@
 
   </div>
   </footer>
-  
+  <script src="js/vegas/vegas.js"></script>
+  <script>
+	$(".main-header").vegas({
+    slides: [
+        { src: "img/IMG_4669.jpg" },
+        { src: "img/IMG_4675.jpg" },
+        { src: "img/IMG_4668.jpg" }
+    ],
+    overlay: 'js/vegas/overlays/02.png'
+});
+  </script>
   <script src="http://maps.googleapis.com/maps/api/js?v=3&amp;sensor=false"></script>
   <script  src="js/script.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" defer></script>

@@ -24,7 +24,7 @@ h3{
     font-size: 18pt;
 }
 .main-header {
-	background: url(../img/IMG_4682.jpg) rgb(255, 255 ,255) 50%  no-repeat;
+	/* background: url(../img/IMG_4682.jpg) rgb(255, 255 ,255) 50%  no-repeat; */
 	background-size: cover;
 	height: 100vh;
 	min-height: 600px;
@@ -166,10 +166,10 @@ h3{
 .main-header-advert-block h2 {
 	font-family: 'Russo One', sans-serif;
 	font-size: 50px;
-	color: black;
+	color: white;
 	line-height: 50px;
-	font-weight: bold;
-	background-color: rgba(251, 251, 251, 0.7);
+	/* font-weight: bold; */
+	/* background-color: rgba(251, 251, 251, 0.7); */
 	display: inline-block;
 	padding: 0 10px 0 5px;
 	border-radius: 5px;
@@ -183,7 +183,7 @@ a.btn {
 }
 .header-advert-btn {
 	position: absolute;
-	display: block;
+	display: none;
 	width: 200px;
 	background-color: #bc131a;
 	line-height: 20px;
